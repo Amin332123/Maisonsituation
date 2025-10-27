@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>YouCode School - Classroom Void | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    h1 , h2{
+        opacity: 0.5;
+        font-size: 30px;
+        text-align: center;
+       
+    }
+    h2 {
+       
+        opacity: 1;
+    }
+    .p1 {
+        opacity: 0.7;
+        text-align: center;
+       
+    }
+    .A {
+        width: 70%;
+        margin-left: 15%; 
+        text-align: justify;
+    }
+
+    .div1 , .div2 , .div3 , .div4 {
+        
+        width: 70%;
+        height: 240px;
+        margin-left: 15%;
+        border-radius: 12px;
+        border: 5px solid ;
+        border-color: red white white white;
+        box-shadow: 2px 3px 20px gray;
+        margin-top: 20px;
+    }
+    .divdiv {
+     
+        width: 70%;
+        margin-left: 15%;
+        height: 150px;
+        margin-top: 10%;
+        
+
+    } 
+    img {
+        position : relative;
+        left : 80%;
+        top : 10%;
+        width: 55px;
+    }
+
+    @media (min-width: 1024px)  {
+        .container {
+           
+            width: 80%;
+            margin-left: 10%;
+            display : grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+        .div1 , .div2 , .div3 , .div4  {
+            width: 80%;
+        }
+        .div4 {
+            
+            margin-left: 115%;
+            margin-top: 1%;
+            display: flex;
+        }
+        .div1 {
+            margin-top: 70%;
+            margin-left: 20% ;
+
+        }
+        .div3 {
+            margin-top: 70%;
+            margin-right: 20% ;
+
+        }
+        .div2 {
+            display: flex;
+            margin-top: 30%;
+        }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <h1>Reliable, efficient delivery</h1>
+  <h2>Powered by Technology</h2>
+  
+
+  <div class="A">
+    <p class="p1">Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful</p>
+  </div>
+
+   <div class="container">
+  <div class="div1">
+     <div class="divdiv"><h3>Supervisor</h3>
+  <p class="p2">Monitors activity to identify project roadblocks</p>
+   <img src="./images/icon-supervisor.svg" alt="">
+</div>
+
+  </div>
+  <div class="div2">
+    <div class="divdiv">
+     <h3>Team Builder</h3>
+  <p class="p2">Scans our talent network to create the optimal team for your project</p>
+   <img src="./images/icon-team-builder.svg" alt="">
+</div>
+  </div>
+  <div class="div3">
+     <div class="divdiv">
+     <h3>Karma</h3>
+  <p class="p2">  Regularly evaluates our talent to ensure quality</p>
+  <img src="./images/icon-karma.svg" alt="">
+</div>
+  </div>
+  <div class="div4">
+    <div class="divdiv">
+     <h3>Calculator</h3>
+  <p class="p2">  Uses data from past projects to provide better delivery estimates</p>
+  <img src="./images/icon-calculator.svg" alt="">
+</div>
+  </div>
+ 
+   </div>
+</body>
+</html>
